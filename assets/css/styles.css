@@ -268,3 +268,13 @@ Device width:
     font-size: 25px;
   }
 }
+
+.ship {
+  display: inline-block;
+}
+.ship + .ship {
+  margin-left: 0.5em;
+}
+.ship .fa-align-justify {
+  font-size: 10px;
+}
